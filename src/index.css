@@ -1,0 +1,45 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --purple-primary: #6B46C1;
+  --purple-dark: #553C9A;
+  --purple-light: #D6BCFA;
+  --off-white: #F7FAFC;
+  --dark-gray: #2D3748;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark-gray);
+  background-color: var(--off-white);
+}
+
+.bg-purple-primary {
+  background-color: var(--purple-primary);
+}
+
+.text-purple-primary {
+  color: var(--purple-primary);
+}
+
+.bg-purple-dark {
+  background-color: var(--purple-dark);
+}
+
+.text-purple-dark {
+  color: var(--purple-dark);
+}
+
+.bg-purple-light {
+  background-color: var(--purple-light);
+}
+
+.hover\:bg-purple-dark:hover {
+  background-color: var(--purple-dark);
+}
+
+.hover\:text-purple-light:hover {
+  color: var(--purple-light);
+}
